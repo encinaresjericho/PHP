@@ -1,0 +1,140 @@
+body {
+    background-image: url(../img/luffysbg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    background-attachment: fixed;
+    min-height: 220vh;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: block;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-1 img{
+    margin-left: 50px;
+    max-width: 150%;
+    padding: 50px 0;
+}
+
+.col-1 h1{
+    font-size: 50px;
+    font-family: Pixelify Sans;
+    line-height: 50px;
+    color: white;
+}
+
+.col-1 p{
+    font-family: Pixelify Sans;
+    color: white;
+    width: auto;
+}
+
+.EP{
+    display: inline-block;
+    background: #121212e3;
+    color: white;
+    font-family: Pixelify Sans;
+    text-decoration: none;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.EP a{
+    text-decoration: none;
+    color: white;
+}
+
+.EP:hover{
+    background: gray;
+}
+
+
+.Title h1{
+    font-family: Pixelify Sans;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+
+
+.Title h1 a{
+    font-family: Pixelify Sans;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card{
+    background-color: #af7031d8;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    margin-bottom: 0px;
+    font-family: Pixelify Sans;
+    font-size: 20px;
+}
+
+.card h4{
+    color: #FFFDD0;
+    text-align: center;
+    font-family: Pixelify Sans;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.character{
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+    height: 160px;
+}
+
+.card-body h5{
+    text-transform: uppercase;
+    color: white;
+}
+
+.card-body p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-family: Pixelify Sans;
+}
+

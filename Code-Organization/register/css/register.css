@@ -1,0 +1,108 @@
+body {
+    background-image: url(../img/luffysbg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(5, 3, 3, 0.527); 
+    border-radius: 10px; 
+}
+
+#l1 {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#name-error{
+    color: red;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#lastname-error{
+    color : red;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#age-error{
+    color: red;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+#password-error{
+    color: red;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+#Conpassword-error{
+    color: red;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#register{
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: #4CAF50;
+    border-width: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#register:hover{
+    background-color: #45a049;
+}

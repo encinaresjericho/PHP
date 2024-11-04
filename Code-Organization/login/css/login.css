@@ -1,0 +1,131 @@
+body {
+    background-image: url(../img/luffysbg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px; 
+    padding: 40px;
+    background-color: rgba(5, 3, 3, 0.377); 
+    border-radius: 10px; 
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.l1 {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mb-3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.CB {
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.RM {
+    color: white;
+    margin-right: 20px; 
+}
+
+a {
+    color: white;
+    margin-left: auto; 
+}
+
+.SU{
+    display: flex;
+}
+
+
+.LI{
+    display: flex;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.or::before,
+.or::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #ccc;
+    margin: 0 10px; 
+}
+
+.other img{
+margin-left: 20px;
+}
+
+.other a{
+    text-decoration: none;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+
+#username-error{
+    color: red;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+#password-error{
+    color: red;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+
+
+
+
